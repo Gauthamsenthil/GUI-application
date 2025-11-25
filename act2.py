@@ -10,7 +10,7 @@ root.geometry('400x300')
 lb1 = Label(text = "hey there!",fg = "white",bg = "lightblue",height = 1,width = 300)
 #add labe; for getting name as input from user
 #use entry widget to create a text box for user to enter details
-name_lb1 = Label(text = "full name", bbg = "white")
+name_lb1 = Label(text = "full name", bg = "white")
 name_entry = Entry()
 
 #function to display a message
