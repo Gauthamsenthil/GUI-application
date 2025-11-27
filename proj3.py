@@ -12,11 +12,11 @@ label1_entry.pack()
 label3 = Label(text="")
 label3.pack()
 
-def convert(event = None):
+def convert(event=None):
     inches = float(label1_entry.get())
     centimeters = inches * 2.54
-    label3.config(text=f"Inches to cm: {centimeters} cm")
-    
+    label3.config(text="Inches to cm: " + str(centimeters) + " cm")
+
 
 window.bind("<Return>", convert)
 
